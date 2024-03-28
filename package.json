@@ -1,5 +1,5 @@
 {
-  "homepage": "https://fabrciovvieira.github.io/CalculadoraIMC_emREACT",
+  "homepage": "https://fabrciovvieira.github.io/CalculadoraIMC_emREACT/",
   "name": "imccalc",
   "private": true,
   "version": "0.0.0",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d disd"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
