@@ -1,18 +1,22 @@
-Calculadora React
+### Calculadora de IMC (Índice de Massa Corporal) com React
 
-Bem-vindo à Calculadora React!
+Este projeto apresenta uma Calculadora de IMC desenvolvida utilizando React, uma poderosa biblioteca JavaScript para construção de interfaces de usuário. O Índice de Massa Corporal (IMC) é uma medida usada para avaliar se uma pessoa está com peso saudável em relação à sua altura.
 
-Esta é uma calculadora simples e intuitiva, construída com React para facilitar seus cálculos diários. Com um visor claro e botões de operação, você pode realizar operações básicas de adição, subtração, multiplicação e divisão de forma fácil e rápida.
+### Funcionalidades
 
-Recursos Principais
+Cálculo do IMC: Os usuários podem inserir seu peso e altura na calculadora.
+Avaliação do Estado Nutricional: Com base no IMC calculado, a calculadora fornece uma avaliação do estado nutricional, indicando se a pessoa está abaixo do peso, com peso normal, sobrepeso ou obesidade.
+Como usar
+Peso: Insira o seu peso em quilogramas (kg).
+Altura: Insira a sua altura em metros (m).
+Calcular: Clique no botão "Calcular" para obter o seu IMC.
+Resultado: O IMC calculado será exibido, juntamente com a avaliação do estado nutricional.
+Por que é importante?
+O IMC é uma ferramenta útil para avaliar a saúde geral de uma pessoa em relação ao seu peso e altura. Embora não seja um indicador perfeito, pode ajudar a identificar possíveis problemas de saúde relacionados ao peso.
 
-Visor Dinâmico: O visor exibe os números conforme você os digita, mantendo-o atualizado durante seus cálculos.
-Operações Básicas: Os botões de soma (+), subtração (-), multiplicação (x) e divisão (/) estão prontos para uso, permitindo que você execute operações matemáticas simples de forma rápida.
-Botão de Limpar: Se cometer um erro ou quiser começar uma nova operação, basta clicar no botão "AC" para limpar o visor e recomeçar do zero.
-Operações em Tempo Real: À medida que você insere os números e escolhe as operações, a calculadora realiza os cálculos em tempo real, mostrando o resultado instantaneamente.
-Como Usar
+### Desenvolvimento com React
 
-Entrada de Números: Use os botões numéricos para inserir os números desejados.
-Operações Matemáticas: Clique nos botões de operação (+, -, x, /) para selecionar a operação desejada.
-Resultado Instantâneo: O resultado da operação aparece imediatamente no visor da calculadora.
-Limpar e Recomeçar: Se precisar limpar a tela, basta pressionar o botão "C" para zerar a calculadora e começar uma nova operação.
+Componentes React: Utilizados para criar a estrutura e interatividade da calculadora.
+Estado Local (State): Mantém o estado atual dos dados inseridos pelo usuário.
+Manipulação de Eventos: Captura eventos de entrada do usuário para realizar o cálculo do IMC.
+Exibição Dinâmica dos Resultados: Os resultados do IMC e a avaliação do estado nutricional são exibidos dinamicamente na interface.
